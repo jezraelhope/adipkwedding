@@ -1,0 +1,22 @@
+.hero {
+  background: url("../assets/2.png") no-repeat fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+.timma {
+  background: url("../assets/timma.jpeg") no-repeat fixed;
+  background-position: top;
+  background-size: cover;
+}
+
+.adipk {
+  font-family: "Monsieur La Doulaise", serif;
+  font-weight: 300;
+  font-size: max(9vw, 30px);
+}
+
+.gettingmarried {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: min(5vw, 15px);
+}

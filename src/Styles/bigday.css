@@ -1,0 +1,8 @@
+.bridal-icon {
+  filter: invert(94%) sepia(10%) saturate(7313%) hue-rotate(333deg)
+    brightness(90%) contrast(87%);
+}
+.wedding-icon {
+  filter: invert(15%) sepia(82%) saturate(224%) hue-rotate(54deg)
+    brightness(88%) contrast(92%);
+}
