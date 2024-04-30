@@ -1,5 +1,8 @@
 import "/src/Styles/bigday.css";
 import venue from "../assets/backroadbarn.webp";
+import ganesh from "../assets/ganesh.jpeg";
+import bridal from "../assets/bridal-icon.svg";
+import weddingdecor from "../assets/weddingdecor.webp";
 const TheBigDay = () => {
   return (
     <div className="thebigday views text-center">
@@ -16,7 +19,7 @@ const TheBigDay = () => {
       </div>
       <div className="ceremony flex flex-row bg-pineTree">
         <div className="w-1/2 h-full">
-          <img src="./src/assets/ganesh.jpeg" alt="" className="h-full" />
+          <img src={ganesh} alt="" className="h-full" />
         </div>
         <div className="flex flex-col items-center p-10 justify-center w-1/2 ">
           <h3 className="mb-10 text-h3">The Ceremony</h3>
@@ -60,16 +63,12 @@ const TheBigDay = () => {
           </p>
         </div>
         <div className="w-1/2 flex flex-row justify-center mt-16">
-          <img
-            src="./src/assets/bridal-icon.svg"
-            alt=""
-            className="wedding-icon h-full mt-5"
-          />
+          <img src={bridal} alt="" className="wedding-icon h-full mt-5" />
         </div>
       </div>
       <div className="reception flex flex-row bg-pineTree text-metallic">
         <div className="w-1/2">
-          <img src="./src/assets/weddingdecor.webp" />
+          <img src={weddingdecor} />
         </div>
         <div className="flex flex-col items-center p-10 justify-start w-1/2">
           <h3 className="text-h3 mb-10">The After Party</h3>

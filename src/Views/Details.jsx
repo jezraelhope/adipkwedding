@@ -1,3 +1,5 @@
+import ornate from "../assets/ornate.webp";
+import baymont from "../assets/baymont.jpeg";
 const Details = () => {
   return (
     <div className="details views px-3 py-16 mt-16 text-center h-full">
@@ -6,7 +8,7 @@ const Details = () => {
       </div>
       <div className="travel mx-auto mb-24">
         <h2 className="text-h3">Travel</h2>
-        <img src="./src/assets/ornate.webp" alt="" className="h-16 mx-auto" />
+        <img src={ornate} alt="" className="h-16 mx-auto" />
         <div className="transportation">
           <div className="my-7 px-16">
             <p>Estimate driving time from</p>
@@ -37,18 +39,14 @@ const Details = () => {
       </div>
       <div className="stay mb-20">
         <h2 className="text-h3">Stay</h2>
-        <img
-          src="./src/assets/ornate.webp"
-          alt=""
-          className="h-16 mx-auto mb-10"
-        />
+        <img src={ornate} alt="" className="h-16 mx-auto mb-10" />
 
         <div className="w-full flex flex-col items-center">
           <p>
             For your convenience, a block of rooms has been reserved at BAYMONT
             BY WYNDHAM FREEPORT for the evening of August 31, 2024.
           </p>
-          <img src="./src/assets/baymont.jpeg" alt="" className="my-6" />
+          <img src={baymont} alt="" className="my-6" />
           <p>1060 RIVERSIDE DR, FREEPORT, IL, US</p>
           <a
             href="https://hotelblocks.theknot.com/Hotel/HotelRoomTypes.htm?idtype=Universal&hotelid=6531&sc=Attendee_TheKnot&kw=eventpage&InDate=08/30/2024&OutDate=09/01/2024&wwpath=www.theknot.com%2Fus%2Faditya-timmaraju-and-prateema-karande-aug-2024"
@@ -64,11 +62,7 @@ const Details = () => {
       <div className="dresscode">
         <div>
           <h2 className="text-h3">Dress Code</h2>
-          <img
-            src="./src/assets/ornate.webp"
-            alt=""
-            className="h-16 mx-auto mb-10"
-          />
+          <img src={ornate} alt="" className="h-16 mx-auto mb-10" />
         </div>
         <div>
           <div className="mb-10">
