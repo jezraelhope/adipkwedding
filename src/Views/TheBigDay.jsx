@@ -16,7 +16,7 @@ const TheBigDay = () => {
       </div>
       <div className="ceremony flex flex-row bg-pineTree">
         <div className="w-1/2 h-full">
-          <img src="./src/assets/weddingdecor.webp" alt="" className="h-full" />
+          <img src="./src/assets/ganesh.jpeg" alt="" className="h-full" />
         </div>
         <div className="flex flex-col items-center p-10 justify-center w-1/2 ">
           <h3 className="mb-10 text-h3">The Ceremony</h3>
@@ -54,12 +54,12 @@ const TheBigDay = () => {
         <div className="flex flex-col items-center justify-start w-1/2">
           <h3 className="text-h3 mt-16">While You Wait</h3>
           <p className="text-3 mb-5">between ceremony and reception</p>
-          <p>
+          <p className="w-3/5">
             explain what to do in between, couple will be taking picrures, etc,
             games availble, Airbnb for shelter to take naps, etc.
           </p>
         </div>
-        <div className="w-1/2 flex flex-row justify-center">
+        <div className="w-1/2 flex flex-row justify-center mt-16">
           <img
             src="./src/assets/bridal-icon.svg"
             alt=""
@@ -69,10 +69,10 @@ const TheBigDay = () => {
       </div>
       <div className="reception flex flex-row bg-pineTree text-metallic">
         <div className="w-1/2">
-          <img src="./src/assets/timmawedding.jpeg" />
+          <img src="./src/assets/weddingdecor.webp" />
         </div>
         <div className="flex flex-col items-center p-10 justify-start w-1/2">
-          <h3 className="text-h3">The After Party</h3>
+          <h3 className="text-h3 mb-10">The After Party</h3>
           <p>6:30pm until closing</p>
           <p>
             what to expect during the reception, drinks available, type of food,
