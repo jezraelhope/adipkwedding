@@ -22,7 +22,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        timmatimmi: "url('./src/assets/timmatimmi.jpeg')",
+        timmatimmi: "url('./dist/img/timmatimmi.jpeg')",
       },
     },
   },
