@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <nav className="bg-white w-full flex flex-row items-center fixed top-0 py-5 px-5 bg-gold text-pineTree z-10">
+    <nav className="bg-white w-full flex flex-row items-center fixed top-0 py-5 px-5 bg-pineTree text-metallic z-10">
       <div className="w-1/2 font-[parisienne] text-start">#timmawedstimmi</div>
       <ul className="w-1/2 flex flex-row space-between px-3 text-center">
         <li className="w-1/5">

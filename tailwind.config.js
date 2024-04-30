@@ -9,9 +9,10 @@ export default {
     },
     fontSize: {
       banner: "max(9vw, 5rem)",
-      postBanner: "max(3vw, 2rem)",
-      h3: "max(3vw, 3rem)",
-      h4: "max(2vw, 2rem)",
+      postBanner: "max(4.5vw, 2rem)",
+      h3: "max(3.5vw, 2rem)",
+      h4: "max(2vw, 1.7rem)",
+      p: "max(1vw, .5rem)",
     },
     colors: {
       gold: "#d7c695",
@@ -25,7 +26,6 @@ export default {
       },
     },
   },
-  fontSize: {},
   extend: {},
   plugins: [],
 };

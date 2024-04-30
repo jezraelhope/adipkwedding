@@ -12,7 +12,9 @@ const Home = () => {
         <div className="w-1/3 text-center">
           <span>icon</span>
           <h3>What</h3>
-          <p>Please join us as we celebrate our wedding</p>
+          <p>
+            Be a part of our synchronized chaos and shower us with your love.
+          </p>
         </div>
         <div className="w-1/3 text-center">
           <span>icon</span>

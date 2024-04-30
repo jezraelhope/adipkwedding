@@ -47,7 +47,7 @@ const TheBigDay = () => {
             </p>
             <p></p>
           </div>
-          <p className="pt-24">Dress Code: Indian Traditional</p>
+          <p className="mt-24">Dress Code: Indian Traditional</p>
         </div>
       </div>
       <div className="whileyouwait h-3/5 flex flex-row bg-gold text-pineTree">
@@ -78,9 +78,12 @@ const TheBigDay = () => {
             what to expect during the reception, drinks available, type of food,
             etc....
           </p>
+          <p className="mt-24">Dress Code: Indian Cocktail Attire</p>
         </div>
       </div>
-      <div>DINE.DRINK.DANCE</div>
+      <div className="bg-gold text-pineTree py-24 text-h3">
+        <p>DINE.DRINK.DANCE</p>
+      </div>
     </div>
   );
 };
