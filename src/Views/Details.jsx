@@ -42,10 +42,6 @@ const Details = () => {
         <img src={ornate} alt="" className="h-16 mx-auto mb-10" />
 
         <div className="w-full flex flex-col items-center">
-          <p>
-            For your convenience, a block of rooms has been reserved at BAYMONT
-            BY WYNDHAM FREEPORT for the evening of August 31, 2024.
-          </p>
           <img src={baymont} alt="" className="my-6" />
           <p>1060 RIVERSIDE DR, FREEPORT, IL, US</p>
           <a
@@ -67,8 +63,16 @@ const Details = () => {
         <div>
           <div className="mb-10">
             <h3 className="text-h4">Ceremony</h3>
-            <p>Women: Saree, etc</p>
-            <p>Men: Kurta Suits, etc</p>
+            <p>Indian Trandition</p>
+            <p>Women Outfit Ideas: Saree, Lehenga choli, salwar suits/punjabi suits, 
+              Other options might be a long traditional skirt with a crop top.</p>
+              <p><a href="https://youtu.be/FMlcSUY6KRk"
+        className="underline"> Dress Ideas for Women</a></p>
+            <p><a href="https://www.amazon.com/s?k=wedding+sarees+for+women&crid=2CD9Q1IUMTPVY&sprefix=wedding+saree%2Caps%2C168&ref=nb_sb_ss_pltr-sample-20_2_13"
+        className="underline"> Amazon shopping ideas</a></p>
+            <p>Men: Formal suits kurta.</p>
+            <p><a href="https://www.youtube.com/watch?v=Y5DnjnDz2KU&ab_channel=VaibhavKeswani" className="underline"> Dress Ideas for Men 1</a></p>
+            <p><a href="https://youtu.be/x-sHC-sWNDU" className="underline"> Dress Ideas for Men 2</a></p>
           </div>
           <div>
             <h3 className="text-h4">Reception</h3>
