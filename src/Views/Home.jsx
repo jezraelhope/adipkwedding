@@ -9,23 +9,23 @@ const Home = () => {
         <h2 className="gettingmarried">ARE GETTING MARRIED</h2>
       </div>
       <div className="flex flex-row w-full mx-auto py-48 bg-pineTree">
-        <div className="w-1/3 text-center">
-          <span>icon</span>
-          <h3>What</h3>
+        <div className="w-1/2 text-center">
+          <span><h1>Wedding Ceremony</h1></span>
+          <h3>31st August 10:30 AM, Davis, IL</h3>
           <p>
-            Be a part of our synchronized chaos and shower us with your love.
+          Join us for a heartfelt celebration as we exchange vows. Our wedding ceremony will be a joyous occasion filled with love, laughter, and cherished memories, surrounded by family and friends. We can't wait to share this special moment with you and create lasting memories on our big day
           </p>
         </div>
         <div className="w-1/3 text-center">
-          <span>icon</span>
-          <h3>Where</h3>
-          <p>Backyard Barn and Gardens</p>
+          <span>Break</span>
+          <h3>Lunch 12:30 Onwards</h3>
+          <p>Lunch break</p>
           <button>See Map</button>
         </div>
         <div className="w-1/3 text-center">
-          <span>icon</span>
-          <h3>When</h3>
-          <p>August 31, 2024</p>
+          <span>Reception</span>
+          <h3>31st August, 6:30 onwards, Davis, IL </h3>
+          <p>Get ready to dance the night away at our lively wedding reception, featuring great music, delicious food, and plenty of laughter. We'll have fun games, lighthearted jokes, and joyous moments to share with all our loved ones. Join us for an unforgettable evening filled with celebration and love!</p>
         </div>
       </div>
       <div className="story w-full flex flex-row items-center bg-pineTree">

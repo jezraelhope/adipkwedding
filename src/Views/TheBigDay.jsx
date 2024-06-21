@@ -8,15 +8,15 @@ const TheBigDay = () => {
     <div className="thebigday views text-center">
       <div className="h-full bg-timmatimmi bg-cover flex flex-col items-center pt-16 justify-center">
         <h1 className="text-banner font-adipk">The Big Day</h1>
-        <h2 className="text-postBanner">08.31.24</h2>
+        <h2 className="text-postBanner">08.31.24</h2>      
       </div>
-      <div className="py-24 bg-gold text-pineTree flex flex-col items-center">
+      {/* <div className="py-24 bg-gold text-pineTree flex flex-col items-center">
         <img src={venue} alt="" className="h-96 mb-10" />
         <h3 className="mb-10 text-h3">The Venue</h3>
         <p>All events will take place at</p>
         <p>Backyard Bard and Gardens</p>
         <p>1204 Something St. Davis, Il. 60980</p>
-      </div>
+      </div> */}
       <div className="ceremony flex flex-row bg-pineTree">
         <div className="w-1/2 h-full">
           <img src={ganesh} alt="" className="h-full" />
@@ -72,12 +72,17 @@ const TheBigDay = () => {
         </div>
         <div className="flex flex-col items-center p-10 justify-start w-1/2">
           <h3 className="text-h3 mb-10">The After Party</h3>
-          <p>6:30pm until closing</p>
+          <p>6:00 PM cocktail hour starts</p>
+          <p>6:30 Couple Entry dance</p>
           <p>
-            what to expect during the reception, drinks available, type of food,
-            etc....
+          The couple's entrance dance will be followed by performances from the grooviest people in town. 
+          Expect fun, laughter, banter, delicious food, and a whole night of entertainment.
           </p>
-          <p className="mt-24">Dress Code: Indian Cocktail Attire</p>
+          <p>7:30 Dinner Starts</p>
+          <p className="mt-24">Dress Code: Indian Cocktail, Party wear, Indo western fusion, suits, pantsuits. Let your imagination takeover.</p>
+          <p className="mt-24"><a href="https://www.youtube.com/watch?v=_eUy2t0Qncc&ab_channel=MansiDhawan%28beautynotjustwithin%29" className="underline">Inspiration Women</a></p>
+          <p className="mt-24"><a href="https://www.youtube.com/shorts/O0EP2cKRf-o" className="underline">Inspiration Men</a></p>
+
         </div>
       </div>
       <div className="bg-gold text-pineTree py-24 text-h3">
