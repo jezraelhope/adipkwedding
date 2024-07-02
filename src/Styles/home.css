@@ -1,5 +1,5 @@
 .hero {
-  background: url("../assets/2.png") no-repeat fixed;
+  background: url("../assets/palmtree.jpeg") no-repeat fixed;
   background-size: cover;
   width: 100%;
 }
@@ -14,7 +14,7 @@
   font-family: "Monsieur La Doulaise", serif;
   font-weight: 300;
   font-size: max(9vw, 30px);
-  color: floralwhite;
+  /* color: floralwhite; */
 }
 
 .gettingmarried {
