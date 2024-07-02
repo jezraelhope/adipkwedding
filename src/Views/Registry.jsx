@@ -12,12 +12,14 @@ const Registry = () => {
           <a
             href="https://www.zola.com/registry/venkatadityaandprateema"
             className="mx-3 underline"
+            target="_blank"
           >
             Cashfund
           </a>
           <a
             href="https://www.amazon.com/wedding/share/adityaandprateema"
             className="mx-3 underline"
+            target="_blank"
           >
             Amazon Registry
           </a>

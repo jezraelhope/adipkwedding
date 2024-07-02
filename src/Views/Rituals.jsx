@@ -10,7 +10,7 @@ const Rituals = () => {
         <h1 className="text-banner font-adipk pt-18">Rituals</h1>
       </div>
       <div className="ceremony flex flex-col bg-pineTree items-center">
-        <div className="flex flex-col items-center p-10 justify-items-start w-1/2 ">
+        <div className="flex flex-col items-center p-10 justify-items-start w-full md:w-1/2 ">
           <div className="my-5">
             <h4 className=" text-h4">Ganesh Puja</h4>
             <p>

@@ -12,6 +12,7 @@ export default {
       postBanner: "max(4.5vw, 2rem)",
       h3: "max(3.5vw, 2rem)",
       h4: "max(2vw, 1.7rem)",
+      h5: "max(2vw, 1.3rem)",
       p: "max(1vw, .5rem)",
       p2: "max(1.3vw, 1rem)",
     },
