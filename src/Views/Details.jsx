@@ -153,11 +153,6 @@ const Details = () => {
             get too hot. Refreshments will be provided but please manage
             expectations.
           </li>
-          <li>
-            Since the wedding will occur at the end of summer the weather might
-            get too hot. Refreshments will be provided but please manage
-            expectations.
-          </li>
         </ul>
       </div>
     </div>

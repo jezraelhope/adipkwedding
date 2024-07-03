@@ -31,7 +31,7 @@ const Rituals = () => {
           <div className="my-5">
             <h4 className=" text-h4">Kanya Dan</h4>
             <p>
-              The bride’s partner gives their daughter’s hand to the groom,
+              The bride’s parents gives their daughter’s hand to the groom,
               requesting him to accept their daughter as his wife and make her
               his equal partner. By joining hands, the bride and groom make a
               lifelong commitment to support each other in their journey through
