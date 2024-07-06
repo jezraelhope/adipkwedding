@@ -10,7 +10,7 @@ const Registry = () => {
         </p>
         <div className="buttons my-10">
           <a
-            href="https://www.zola.com/registry/venkatadityaandprateema"
+            href="https://www.theknot.com/us/aditya-timmaraju-and-prateema-karande-aug-2024/registry"
             className="mx-3 underline"
             target="_blank"
           >

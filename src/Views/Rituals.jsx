@@ -43,7 +43,7 @@ const Rituals = () => {
             <p>
               Signifies the union/marriage of the bride and the groom. Jeelakarr
               (cumin) and bellam (Jaggery) are made into a thick paste and put
-              in betel leaf. The ride and the groom pit it on each other's heads
+              in betel leaf. The bride and the groom pit it on each other's heads
               while the priest chants mantras from Vedas. The bride and groom
               look at each other only after the ceremony.
             </p>
@@ -54,8 +54,8 @@ const Rituals = () => {
             </h4>
             <p>
               The bride and groom takes seven steps together, each step directed
-              by a mound of rice made by the brides's brother. It is said in
-              Hindu philosophy thattwo people who walk seven steps together will
+              by a mount of rice made by the brides's brother. It is said in
+              Hindu philosophy that two people who walk seven steps together will
               remain lifelong friends.
             </p>
           </div>
