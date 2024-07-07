@@ -1,8 +1,9 @@
+import ornate from "../assets/ornate.webp";
 const Registry = () => {
   return (
     <div className="views px-3 py-16 mt-16 flex flex-col items-center text-center top-padding">
-      <img src="./src/assets/ornate.webp" alt="" className="h-24 mx-auto" />
-      <h1 className="text-banner font-adipk -mt-20">registry</h1>
+      <h1 className="text-banner font-adipk -mt-20 top-padding">Registry</h1>
+      <img src={ornate} alt="" className="h-16 mx-auto" />
       <div>
         <p className="my-10">
           We would like to thank you for sharing in our wedding celebration. We

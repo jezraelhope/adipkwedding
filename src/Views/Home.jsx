@@ -14,9 +14,12 @@ const Home = () => {
           <h1 className="adipk w-3/5 my-16 mx-auto text-metallic text-banner relative z-10">
             Aditya & Prateema
           </h1>
-          <h2 className="gettingmarried text-p2 text-metallic relative">
+          <h2 className="gettingmarried text-h5 text-metallic relative">
             ARE GETTING MARRIED
           </h2>
+          <p className="gettingmarried text-h5 text-metallic relative">
+            8th August 2024
+          </p>
           <div className="countdown text-center py-7 mb-10 text-metallic relative">
             <CountdownTimer />
           </div>

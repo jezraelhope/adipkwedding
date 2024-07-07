@@ -1,13 +1,14 @@
 import "/src/Styles/bigday.css";
 // import venue from "../assets/backroadbarn.webp";
-import ganesh2 from "../assets/ganesh2.jpeg";
-// import bridal from "../assets/bridal-icon.svg";
+
+import ornate from "../assets/ornate.webp"; // import bridal from "../assets/bridal-icon.svg";
 // import weddingdecor from "../assets/weddingdecor.webp";
 const Rituals = () => {
   return (
-    <div className="thebigday views text-center">
-      <div className="h-1/3 flex flex-col items-center pt-16 justify-center top-padding">
+    <div className="thebigday views text-center top-padding">
+      <div className="h-1/3 flex flex-col items-center pt-16 justify-center">
         <h1 className="text-banner font-adipk pt-18">Rituals</h1>
+        <img src={ornate} alt="" className="h-16 mx-auto" />
       </div>
       <div className="ceremony flex flex-col bg-pineTree items-center">
         <div className="flex flex-col items-center p-10 justify-items-start w-full md:w-1/2 ">
@@ -43,9 +44,9 @@ const Rituals = () => {
             <p>
               Signifies the union/marriage of the bride and the groom. Jeelakarr
               (cumin) and bellam (Jaggery) are made into a thick paste and put
-              in betel leaf. The bride and the groom pit it on each other's heads
-              while the priest chants mantras from Vedas. The bride and groom
-              look at each other only after the ceremony.
+              in betel leaf. The bride and the groom pit it on each other's
+              heads while the priest chants mantras from Vedas. The bride and
+              groom look at each other only after the ceremony.
             </p>
           </div>
           <div className="my-5">
@@ -55,8 +56,8 @@ const Rituals = () => {
             <p>
               The bride and groom takes seven steps together, each step directed
               by a mount of rice made by the brides's brother. It is said in
-              Hindu philosophy that two people who walk seven steps together will
-              remain lifelong friends.
+              Hindu philosophy that two people who walk seven steps together
+              will remain lifelong friends.
             </p>
           </div>
         </div>
