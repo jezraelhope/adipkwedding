@@ -2,16 +2,16 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <nav className="bg-white w-full flex flex-row items-center fixed top-0 py-5 px-5 bg-pineTree text-metallic z-50">
-      <div className="w-2/5 font-[parisienne] text-start text-['max(2vw, 2rem)'] cursor-pointer">
-        <Link to="/"></Link>#timmawedstimmi
+    <nav className="bg-white w-full flex flex-row items-center fixed top-0 py-5 pl-5 pr-1 bg-pineTree text-metallic z-50 navigation animate">
+      <div className="w-1/3 font-[parisienne] text-start text-['max(2vw, 2rem)'] cursor-pointer">
+        <Link to="/">#timmawedstimmi</Link>
       </div>
-      <ul className="w-3/5 flex flex-row space-between px-3 text-center text-p">
+      <ul className="w-2/3 flex flex-row space-between items-left text-center text-nav">
         <li className="w-1/5">
           <Link to="/">Home</Link>
         </li>
         <li className="w-1/5">
-          <Link to="/thebigday">The Big Day</Link>
+          <Link to="/thebigday">TheDay&#9829;</Link>
         </li>
         <li className="w-1/5">
           <Link to="/details">Details</Link>

@@ -9,11 +9,22 @@ import Details from "./Views/Details";
 import Rsvp from "./Views/RSVP";
 import Registry from "./Views/Registry";
 import Rituals from "./Views/Rituals";
-
+import Footer from "./Components/footer";
+import { useEffect, useState } from "react";
 function App() {
+  const [offset, setOffset] = useState(0);
+  const isHomePage = window.location.pathname === "/";
+  useEffect(() => {
+    const onScroll = () => setOffset(window.scrollY);
+    // clean up code
+    window.removeEventListener("scroll", onScroll);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
     <div className="app bg-pineTree text-metallic">
-      <Nav />
+      {isHomePage ? offset > 20 && <Nav /> : <Nav />}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/thebigday" element={<TheBigDay />} />
@@ -22,7 +33,7 @@ function App() {
         <Route path="/registry" element={<Registry />} />
         <Route path="/rituals" element={<Rituals />} />
       </Routes>
-      {/* <Footer /> */}
+      {isHomePage ? offset > 40 && <Footer /> : <Footer />}
     </div>
   );
 }

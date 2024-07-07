@@ -1,6 +1,6 @@
 const Rsvp = () => {
   return (
-    <div className="views px-3 py-16 mt-16 text-center">
+    <div className="views px-3 py-16 mt-16 text-center top-padding">
       <img src="./src/assets/ornate.webp" alt="" className="h-24 mx-auto" />
       <h1 className="text-banner font-adipk -mt-20">rsvp</h1>
       <div>

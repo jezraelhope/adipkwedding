@@ -3,11 +3,12 @@ import timma from "../assets/timma.jpeg";
 import heart from "../assets/heart.svg";
 import mapPin from "../assets/map-pin.svg";
 import calendar from "../assets/calendar.svg";
+import CountdownTimer from "./Countdown";
 
 const Home = () => {
   return (
     <div className="views">
-      <div className="hero bg-gray px-3 py-10 text-center flex flex-col justify-center md:py-16 md: mt-16 md:h-full relative">
+      <div className="hero bg-gray px-3 py-10 text-center flex flex-col justify-center md:py-16 md: md:h-full relative">
         <div className=" py-3 w-full">
           <div className="herobg"></div>
           <h1 className="adipk w-3/5 my-16 mx-auto text-metallic text-banner relative z-10">
@@ -16,6 +17,9 @@ const Home = () => {
           <h2 className="gettingmarried text-p2 text-metallic relative">
             ARE GETTING MARRIED
           </h2>
+          <div className="countdown text-center py-7 mb-10 text-metallic relative">
+            <CountdownTimer />
+          </div>
         </div>
       </div>
       <div className="overview flex flex-col w-full mx-auto py-20 bg-pineTree text-center md:flex-row items-center md:py-48">
@@ -30,8 +34,17 @@ const Home = () => {
         </div>
         <div className="w-full flex flex-col items-center my-12 px-5 md:w-1/3">
           <img src={mapPin} alt="" className="h-7 mb-3" />
-          <p className="text-h4">Backroad Barn & Gardens</p>
-          <p>12341 N Spring Brook Rd, Davis, IL 61019</p>
+          <p className="text-h4">
+            {" "}
+            <a href="https://maps.app.goo.gl/yUwJX5V1CLucbFom6">
+              Backroad Barn & Gardens
+            </a>
+          </p>
+          <p>
+            <a href="https://maps.app.goo.gl/yUwJX5V1CLucbFom6">
+              12341 N Spring Brook Rd, Davis, IL 61019
+            </a>
+          </p>
         </div>
         <div className="w-full flex flex-col items-center px-5 md:w-1/3">
           <img src={calendar} alt="" className="h-7 mb-3" />
@@ -82,11 +95,6 @@ const Home = () => {
         </div>
         <img src={venue} alt="" className="w-1/2" />
       </div> */}
-      <div className="countdown text-center py-7 mb-10 bg-pineTree">
-        <h3>August 31, 2024</h3>
-        <h4>Countdown</h4>
-        <div>Countdown Timer</div>
-      </div>
     </div>
   );
 };

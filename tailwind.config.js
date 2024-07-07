@@ -15,6 +15,7 @@ export default {
       h5: "max(2vw, 1.3rem)",
       p: "max(1vw, .5rem)",
       p2: "max(1.3vw, 1rem)",
+      nav: "max(1.3vw, .7rem)",
     },
     colors: {
       gold: "#d7c695",

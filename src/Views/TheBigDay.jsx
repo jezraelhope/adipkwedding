@@ -7,7 +7,7 @@ import weddingdecor from "../assets/weddingdecor.webp";
 import { Link } from "react-router-dom";
 const TheBigDay = () => {
   return (
-    <div className="thebigday views text-center">
+    <div className="thebigday views text-center top-padding">
       <div className="h-4/5 pb-10 flex flex-col items-center pt-16 justify-center md:h-full">
         <h1 className="text-banner font-adipk">The Big Day</h1>
         <h2 className="text-postBanner">08.31.24</h2>

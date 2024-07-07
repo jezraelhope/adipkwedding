@@ -2,7 +2,7 @@ import ornate from "../assets/ornate.webp";
 import baymont from "../assets/baymont.jpeg";
 const Details = () => {
   return (
-    <div className="details views px-3 py-16 mt-16 text-center h-full">
+    <div className="details views px-3 py-16 mt-16 text-center h-full top-padding">
       <div>
         <h1 className="text-banner font-adipk pt-18">The Deets</h1>
       </div>

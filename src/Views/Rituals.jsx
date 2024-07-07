@@ -6,7 +6,7 @@ import ganesh2 from "../assets/ganesh2.jpeg";
 const Rituals = () => {
   return (
     <div className="thebigday views text-center">
-      <div className="h-1/3 flex flex-col items-center pt-16 justify-center">
+      <div className="h-1/3 flex flex-col items-center pt-16 justify-center top-padding">
         <h1 className="text-banner font-adipk pt-18">Rituals</h1>
       </div>
       <div className="ceremony flex flex-col bg-pineTree items-center">
