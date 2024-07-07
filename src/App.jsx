@@ -10,6 +10,7 @@ import Rsvp from "./Views/RSVP";
 import Registry from "./Views/Registry";
 import Rituals from "./Views/Rituals";
 import Footer from "./Components/footer";
+
 import { useEffect, useState } from "react";
 function App() {
   const [offset, setOffset] = useState(0);
