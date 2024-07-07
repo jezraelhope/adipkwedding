@@ -28,7 +28,7 @@ const TheBigDay = () => {
             <h3 className="text-h3 underline underline-offset-4 decoration-1">
               The Ceremony
             </h3>
-            <h4 className="text-h4">9am</h4>
+            <h4 className="text-h4">9 am</h4>
           </div>
           <div className="my-10">
             <p className="text-p2">
@@ -63,7 +63,7 @@ const TheBigDay = () => {
             <h3 className="text-h3 underline underline-offset-4 decoration-1">
               Reception
             </h3>
-            <h4 className="text-h4">5pm</h4>
+            <h4 className="text-h4">5 pm</h4>
           </div>
           <p>
             The reception program will be opened by the couple's entrance

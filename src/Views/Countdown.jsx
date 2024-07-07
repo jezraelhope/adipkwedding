@@ -1,7 +1,12 @@
 import Countdown from "react-countdown";
 import "../Styles/home.css";
 
-const Completionist = () => <span>It's the wedding day!</span>;
+const Completionist = () => (
+  <span>
+    It's the wedding day! Ceremony starts at 9 am and Reception is in the
+    evening at 5pm.
+  </span>
+);
 
 const renderer = ({ days, hours, minutes, seconds, completed }) => {
   if (completed) {

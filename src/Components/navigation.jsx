@@ -1,6 +1,10 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
-const Nav = () => {
+const Nav = ({ setFirstPageLoad }) => {
+  useEffect(() => {
+    setFirstPageLoad(false);
+  }, []);
   return (
     <nav className="bg-white w-full flex flex-row items-center fixed top-0 py-5 pl-5 pr-1 bg-pineTree text-metallic z-50 navigation animate">
       <div className="w-1/3 font-[parisienne] text-start text-['max(2vw, 2rem)'] cursor-pointer">

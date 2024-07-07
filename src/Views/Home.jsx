@@ -5,10 +5,14 @@ import mapPin from "../assets/map-pin.svg";
 import calendar from "../assets/calendar.svg";
 import CountdownTimer from "./Countdown";
 
-const Home = () => {
+const Home = ({ firstPageLoad }) => {
   return (
     <div className="views">
-      <div className="hero bg-gray px-3 py-10 text-center flex flex-col justify-center md:py-16 md: md:h-full relative">
+      <div
+        className={`hero bg-gray px-3 text-center flex flex-col justify-center md:h-full relative animate ${
+          firstPageLoad ? "py-5" : "py-10"
+        }`}
+      >
         <div className=" py-3 w-full">
           <div className="herobg"></div>
           <h1 className="adipk w-3/5 my-16 mx-auto text-metallic text-banner relative z-10">
@@ -20,7 +24,7 @@ const Home = () => {
           <p className="gettingmarried text-h5 text-metallic relative">
             8th August 2024
           </p>
-          <div className="countdown text-center py-7 mb-10 text-metallic relative">
+          <div className="countdown text-center py-7 mb-10 text-metallic relative gettingmarried">
             <CountdownTimer />
           </div>
         </div>
