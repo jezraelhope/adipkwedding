@@ -22,7 +22,7 @@ const Home = ({ firstPageLoad }) => {
             ARE GETTING MARRIED
           </h2>
           <p className="gettingmarried text-h5 text-metallic relative">
-            8th August 2024
+            31st August 2024
           </p>
           <div className="countdown text-center py-7 mb-10 text-metallic relative gettingmarried">
             <CountdownTimer />
