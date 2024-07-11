@@ -66,30 +66,18 @@ const Home = ({ firstPageLoad }) => {
           <div className=" h-4/5 flex flex-col items-center justify-evenly">
             <h3 className="mb-5 text-h3">How It All Began</h3>
             <div className="my-5">
-              <p className="py-3 text-p">
+              <p className="py-3 text-h5">
                 Timma is channeling his inner writer and this portion will be
-                written soon...{" "}
+                written soon.....
               </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam blanditiis corrupti delectus, ipsa alias numquam
-                minus, voluptatum quo ab asperiores, atque optio animi vitae!
-                Autem dolores nihil eius repudiandae omnis.
+              <p className="py-6 text-h6">
+                Can't wait to hear the story of how we met? Channel Timma's inner flash and support his kind-hearted soul by donating through the <a className="underline" href="https://gofund.me/98c4b01e">GoFundMe link</a>. 
               </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Similique iste saepe odio fuga eius esse repudiandae
-                consequuntur, nulla ut delectus alias laboriosam minima, omnis
-                dolore officiis nisi est eos voluptatibus.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-                ad, architecto quam quas veniam culpa quasi natus facilis
-                quibusdam commodi aliquam corrupti perferendis deserunt quae
-                odio fugiat mollitia sit! Consequuntur.
+              <p className="py-8 text-h9">
+                **Bonus: The top 5 contributors will earn a spot in our epic tale!
               </p>
             </div>
-            <button className="underline underline-offset-2">Gallery</button>
+            {/* <button className="underline underline-offset-2">Gallery</button> */}
           </div>
         </div>
       </div>
