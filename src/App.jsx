@@ -10,6 +10,7 @@ import Rsvp from "./Views/RSVP";
 import Registry from "./Views/Registry";
 import Rituals from "./Views/Rituals";
 import Footer from "./Components/footer";
+import Gallery from "./Views/Gallery";
 
 import { useEffect, useState } from "react";
 function App() {
@@ -39,6 +40,7 @@ function App() {
         <Route path="/rsvp" element={<Rsvp />} />
         <Route path="/registry" element={<Registry />} />
         <Route path="/rituals" element={<Rituals />} />
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
       {isHomePage && firstPageLoad ? offset > 40 && <Footer /> : <Footer />}
     </div>
