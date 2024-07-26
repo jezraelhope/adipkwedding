@@ -4,6 +4,7 @@ import heart from "../assets/heart.svg";
 import mapPin from "../assets/map-pin.svg";
 import calendar from "../assets/calendar.svg";
 import CountdownTimer from "./Countdown";
+import { Link } from "react-router-dom";
 
 const Home = ({ firstPageLoad }) => {
   return (
@@ -71,13 +72,25 @@ const Home = ({ firstPageLoad }) => {
                 written soon.....
               </p>
               <p className="py-6 text-h6">
-                Can't wait to hear the story of how we met? Channel Timma's inner flash and support his kind-hearted soul by donating through the <a className="underline" href="https://gofund.me/98c4b01e">GoFundMe link</a>. 
+                Can't wait to hear the story of how we met? Channel Timma's
+                inner flash and support his kind-hearted soul by donating
+                through the{" "}
+                <a className="underline" href="https://gofund.me/98c4b01e">
+                  GoFundMe link
+                </a>
+                .
               </p>
               <p className="py-8 text-h9">
-                **Bonus: The top 5 contributors will earn a spot in our epic tale!
+                **Bonus: The top 5 contributors will earn a spot in our epic
+                tale!
+              </p>
+              <p className="py-8 text-h9">
+                In the mean time you can visit&nbsp;
+                <button className="underline underline-offset-2">
+                  <Link to="/gallery">Gallery</Link>
+                </button>
               </p>
             </div>
-            {/* <button className="underline underline-offset-2">Gallery</button> */}
           </div>
         </div>
       </div>
