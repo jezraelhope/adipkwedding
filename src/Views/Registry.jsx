@@ -11,18 +11,11 @@ const Registry = () => {
         </p>
         <div className="buttons my-10">
           <a
-            href="https://www.theknot.com/us/aditya-timmaraju-and-prateema-karande-aug-2024/registry"
+            href="https://www.theknot.com/adityaandprateema/registry"
             className="mx-3 underline"
             target="_blank"
           >
-            Cashfund
-          </a>
-          <a
-            href="https://www.amazon.com/wedding/share/adityaandprateema"
-            className="mx-3 underline"
-            target="_blank"
-          >
-            Amazon Registry
+            Registry Link
           </a>
         </div>
       </div>
