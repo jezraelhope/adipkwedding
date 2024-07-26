@@ -26,9 +26,6 @@ const Nav = ({ setFirstPageLoad }) => {
         <li className="w-1/5">
           <Link to="/registry">Registry</Link>
         </li>
-        <li className="w-1/5">
-          <Link to="/gallery">Gallery</Link>
-        </li>
       </ul>
     </nav>
   );
