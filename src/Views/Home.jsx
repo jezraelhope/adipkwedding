@@ -10,14 +10,16 @@ const Home = ({ firstPageLoad }) => {
   return (
     <div className="views">
       <div
-        className={`hero bg-gray px-3 text-center flex flex-col justify-center md:h-full relative animate ${
+        className={`hero bg-gray text-center flex flex-col justify-center md:h-full relative animate ${
           firstPageLoad ? "py-5" : "py-10"
         }`}
       >
         <div className=" py-3 w-full">
           <div className="herobg"></div>
-          <h1 className="adipk w-3/5 my-16 mx-auto text-metallic text-banner relative z-10">
-            Aditya & Prateema
+          <h1 className="adipk w-3/5 text-center flex flex-col items-center mt-16 mb-8 md:my-16 mx-auto text-metallic text-banner relative z-10">
+            <span>Aditya</span>
+            <span>&</span>
+            <span>Prateema</span>
           </h1>
           <h2 className="gettingmarried text-h5 text-metallic relative">
             ARE GETTING MARRIED
